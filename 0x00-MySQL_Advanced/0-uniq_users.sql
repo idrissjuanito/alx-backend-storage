@@ -2,7 +2,7 @@
 
 -- creates a users table
 CREATE TABLE IF NOT EXISTS users (
-    id int AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     email varchar(255) NOT NULL UNIQUE,
     name varchar(255),
 )
