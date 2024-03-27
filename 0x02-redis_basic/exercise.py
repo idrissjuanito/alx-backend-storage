@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Cache class """
-from typing_extensions import Union
+from typing import Union
 import redis
 import uuid
 
