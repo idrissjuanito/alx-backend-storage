@@ -1,3 +1,2 @@
 // inserts a document into mongodb
-use process.argv[1]
-db.school.insertOne({name: "Holberton school"})
+db.collection('school').insertOne({name: "Holberton school"})
