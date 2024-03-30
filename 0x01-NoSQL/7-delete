@@ -1,0 +1,2 @@
+// mongodb delete all records with criteria
+db.school.deleteMany({name: "Holberton school"})
